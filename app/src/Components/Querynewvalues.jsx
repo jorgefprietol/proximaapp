@@ -24,6 +24,6 @@ export default function Querynewvalues() {
   }, []);
 
   return <div className='presentaion'>{loaded ? <div> 
-    <h1>Values from Yahoo EUR-USD : <a href='window.location.href' className='cv-btn'>Update</a></h1> 
-    { ditto.EURUSDInsert.length !== 0 ? <List items={ditto.EURUSDInsert} /> : <h2>No hay datos nuevos de los ultimos 5 dias diferentes...</h2> } <Contentbody/> </div> : <h2>Cargando...</h2>}</div>;
+    <h1>Values from Yahoo EUR-USD : <a href='javascript:location.reload();' className='cv-btn'>Update</a></h1> 
+    { ditto.EURUSDInsert.length !== 0 ? <List items={ditto.EURUSDInsert} /> : <h2>No new data for the last 5 different days...</h2> } <Contentbody/> </div> : <h2>Loading...</h2>}</div>;
 }

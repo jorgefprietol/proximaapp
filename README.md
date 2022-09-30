@@ -7,7 +7,7 @@
 Note: The webhook URL must be able to take parameters, you can use https://webhook.site/ to generate a new one. (Done)
 5. DESIGN IMPLEMENTATION: Implement the mock design provided to you using ReactJS. (Done) - REST API integration with Reactjs.
 
-Start Python main.py in root folder /proxima
+Start Python main.py in root folder /proxima in port http://127.0.0.1:5000 (REST API)
 Start Reactjs app in /app
 
 Jorge Prieto.

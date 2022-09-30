@@ -22,5 +22,5 @@ export default function Contentbody() {
     .finally(() => setLoaded(true));
   }, []);
 
-  return <div>{loaded ? <div><h1>History from DB EUR-USD :</h1> <List items={ditto.EURUSDQuery} /> </div> : <h2>Cargando...</h2>}</div>;
+  return <div>{loaded ? <div><h1>History from DB EUR-USD :</h1> <List items={ditto.EURUSDQuery} /> </div> : <h2>Loading...</h2>}</div>;
 }
