@@ -1,0 +1,7 @@
+flask
+jsonify
+BeautifulSoup
+mariadb
+json
+pprint
+requests
